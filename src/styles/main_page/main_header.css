@@ -1,0 +1,66 @@
+header {
+  height: 84px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px 0 32px;
+}
+
+.header-logo {
+  display: flex;
+}
+
+.burger-open {
+  background: none;
+  border: none;
+  margin-right: 28px;
+  margin-top: -6px;
+  width: 20px;
+  height: 17px;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.searchbar-wrapper {
+  width: 100%;
+  margin-left: 59px;
+  margin-right: 30px;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 830px;
+  height: 44px;
+  background: #ebebeb;
+  mix-blend-mode: normal;
+  border-radius: 22px;
+  opacity: 0.3;
+  padding: 12px 12.79px 12px 23px;
+  color: #30384C;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header-icons-block {
+  display: flex;
+}
+
+.button-icons > svg {
+  opacity: 0.3;
+}
+
+.button-icons > svg:hover {
+  opacity: 1;
+}
+
+.button-icons {
+  width: 175px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-right: 45px;
+}

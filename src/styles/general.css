@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Muli';
+  src: url('/src/fonts/Muli/muli.regular.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Muli';
+  transition-duration: 0.1s;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  background: #fff;
+}
+
+button,
+li,
+svg {
+  cursor: pointer;
+}
