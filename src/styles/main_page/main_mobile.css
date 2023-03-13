@@ -89,6 +89,10 @@
     overflow: visible;
   }
 
+  .item-time {
+    left: 232px;
+  }
+
   .recomended-content-item,
   .channel-content-item {
     width: 288px;
