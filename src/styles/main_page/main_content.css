@@ -168,6 +168,10 @@ h5 {
   justify-content: space-between;
 }
 
+.recomended-content-item > .content-item-description > h4 {
+  margin-left: -1px;
+}
+
 .recomended-content-item-image,
 .recomended-item-image-container {
   width: 540px;

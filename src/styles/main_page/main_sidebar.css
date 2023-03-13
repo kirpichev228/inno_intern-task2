@@ -7,6 +7,20 @@ li:hover {
   color: #ff0000;
 }
 
+a {
+  color: #898989;
+  text-decoration: none;
+  margin-left: -4px;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+a:first-child {
+  margin-top: 1px;
+}
+
 .sidebar-menu,
 .sidebar-subscriptions {
   font-family: Muli;
